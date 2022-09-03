@@ -4,7 +4,6 @@ import org.bukkit.Bukkit
 import org.bukkit.Material
 import org.bukkit.event.EventHandler
 import org.bukkit.event.Listener
-import org.bukkit.event.entity.EntityInteractEvent
 import org.bukkit.event.inventory.InventoryClickEvent
 import org.bukkit.event.inventory.InventoryOpenEvent
 import org.bukkit.event.inventory.InventoryType
@@ -29,9 +28,9 @@ class CustomInventoryTest : Listener {
        e.player.openInventory(customInventory)
     }
 
+
     @EventHandler
     fun onInventoryOpen(e: InventoryOpenEvent) {
-        e.inventory.setItem(5, ItemStack(Material.BARRIER))
         if (e.inventory != customInventory) return
         for (index in 0 until e.inventory.size) {
             val item = e.inventory.getItem(index)

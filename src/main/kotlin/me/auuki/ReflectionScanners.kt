@@ -63,7 +63,7 @@ class ReflectionScanners(private val javaPlugin: JavaPlugin) {
         }
     }
 
-    fun registerAllListeners() {
+    fun allListeners() {
         val reflections = Reflections(packageName, MethodsAnnotated, SubTypes)
         val subtypes = reflections.getSubTypesOf(Listener::class.java)
         subtypes.forEach {

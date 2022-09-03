@@ -3,10 +3,10 @@ package me.auuki
 import org.bukkit.plugin.java.JavaPlugin
 
 class MinecraftPlugin : JavaPlugin() {
-    private lateinit var reflectionScanners: ReflectionScanners
+    private val reflectionScanners: ReflectionScanners = ReflectionScanners(this)
+
     override fun onEnable() {
-        reflectionScanners = ReflectionScanners(this)
-        reflectionScanners.registerAllListeners()
+        reflectionScanners.allListeners()
         reflectionScanners.defineCommands()
     }
 }

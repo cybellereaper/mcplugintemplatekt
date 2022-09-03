@@ -7,11 +7,9 @@ import org.bukkit.event.Listener
 import org.bukkit.event.player.PlayerJoinEvent
 
 class CustomMobTest : Listener {
-
     @EventHandler
     fun onJoin(e: PlayerJoinEvent) {
         val entity = e.player.world.spawnEntity(e.player.location, EntityType.ZOMBIE)
-
         (entity as Zombie).apply {
             setAI(false)
             isCustomNameVisible = true
