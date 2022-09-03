@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4cc66159-6195-49d1-b7b0-ec15c0119277" name="Changes" comment="Added in database functionality?">
+    <list default="true" id="4cc66159-6195-49d1-b7b0-ec15c0119277" name="Changes" comment="reformatted">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/me/auuki/permissibles/IPermissions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/me/auuki/permissibles/UserPermissions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/me/auuki/utils/serialization/ItemStackSerializer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/me/auuki/utils/serialization/UUIDSerializer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/me/auuki/items/CustomItems.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/me/auuki/items/CustomItems.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/me/auuki/permissibles/Permissions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/me/auuki/permissibles/Permissions.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,9 +97,9 @@
         <option value="Kotlin Enum" />
         <option value="Kotlin Annotation" />
         <option value="Kotlin File" />
+        <option value="Kotlin Data Class" />
         <option value="Kotlin Interface" />
         <option value="Kotlin Class" />
-        <option value="Kotlin Data Class" />
       </list>
     </option>
   </component>
@@ -126,6 +132,7 @@
       <recent name="C:\Users\Administrator\IdeaProjects\MinecraftPluginCool" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="me.auuki.utils.serialization" />
       <recent name="me.auuki.inventories" />
       <recent name="me.auuki.commands" />
       <recent name="me.auuki" />
@@ -276,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662245709636</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="reformatted">
+      <created>1662246003538</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1662246003538</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -299,6 +313,7 @@
     <MESSAGE value="added in Cuboid.kt" />
     <MESSAGE value="refactored" />
     <MESSAGE value="Added in database functionality?" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added in database functionality?" />
+    <MESSAGE value="reformatted" />
+    <option name="LAST_COMMIT_MESSAGE" value="reformatted" />
   </component>
 </project>

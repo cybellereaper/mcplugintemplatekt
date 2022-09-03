@@ -1,13 +1,14 @@
 package me.auuki.items
 
+import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
+import java.util.*
 
 @Serializable
 data class CustomItems(
-    val Id: String,
-    val display: String
+    @SerialName("_id") val _id: String = UUID.randomUUID().toString(),
+    val display: String = "example",
 )
 
-@Serializable
-data class CustomItemProperties(val Id: String, val map: Map<String, String> = mapOf())
+
 
