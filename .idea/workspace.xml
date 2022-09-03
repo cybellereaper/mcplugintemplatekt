@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4cc66159-6195-49d1-b7b0-ec15c0119277" name="Changes" comment="added in Cuboid.kt">
+    <list default="true" id="4cc66159-6195-49d1-b7b0-ec15c0119277" name="Changes" comment="refactored">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/me/auuki/database/MongoStorage.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/me/auuki/database/Storage.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/me/auuki/inventories/CustomInventory.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/me/auuki/MinecraftPlugin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/me/auuki/MinecraftPlugin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/me/auuki/database/MongoWrapper.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/me/auuki/database/StorageContainer.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/me/auuki/database/StorageConverter.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,11 +96,11 @@
         <option value="Class" />
         <option value="Kotlin Object" />
         <option value="Kotlin Enum" />
-        <option value="Kotlin Data Class" />
         <option value="Kotlin Annotation" />
         <option value="Kotlin File" />
         <option value="Kotlin Interface" />
         <option value="Kotlin Class" />
+        <option value="Kotlin Data Class" />
       </list>
     </option>
   </component>
@@ -132,7 +139,7 @@
       <recent name="me.auuki.listeners" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MinecraftPluginCool [clean]">
+  <component name="RunManager" selected="Gradle.MinecraftPluginCool [shadowJar]">
     <configuration name="MinecraftPluginCool [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -145,6 +152,27 @@
         <option name="taskNames">
           <list>
             <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MinecraftPluginCool [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jar" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -177,8 +205,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.MinecraftPluginCool [clean]" />
         <item itemvalue="Gradle.MinecraftPluginCool [shadowJar]" />
+        <item itemvalue="Gradle.MinecraftPluginCool [clean]" />
+        <item itemvalue="Gradle.MinecraftPluginCool [jar]" />
       </list>
     </recent_temporary>
   </component>
@@ -240,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662242841051</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="refactored">
+      <created>1662243078291</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1662243078291</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -261,6 +297,7 @@
     <MESSAGE value="Testing out more entity?" />
     <MESSAGE value="Added in database support?" />
     <MESSAGE value="added in Cuboid.kt" />
-    <option name="LAST_COMMIT_MESSAGE" value="added in Cuboid.kt" />
+    <MESSAGE value="refactored" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactored" />
   </component>
 </project>
