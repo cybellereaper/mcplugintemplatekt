@@ -5,8 +5,9 @@ import com.mongodb.client.model.UpdateOptions
 import org.bson.UuidRepresentation
 import org.litote.kmongo.*
 
-class MongoStorage<T: Any>(clazz: Class<T>, databaseName: String, collectionName: String): Storage<T> {
-    private val client = KMongo.createClient(MongoClientSettings.builder().uuidRepresentation(UuidRepresentation.STANDARD).build())
+class MongoStorage<T : Any>(clazz: Class<T>, databaseName: String, collectionName: String) : Storage<T> {
+    private val client =
+        KMongo.createClient(MongoClientSettings.builder().uuidRepresentation(UuidRepresentation.STANDARD).build())
     private val database = client.getDatabase(databaseName)
     private val collection = database.getCollection(collectionName, clazz)
     override fun insertOrUpdate(id: Id<T>, entity: T) {

@@ -2,7 +2,7 @@ package me.auuki.database
 
 import org.litote.kmongo.Id
 
-interface Storage<T: Any> {
+interface Storage<T : Any> {
     fun insertOrUpdate(id: Id<T>, entity: T)
     fun get(id: Id<T>): T?
     fun getAll(): List<T>

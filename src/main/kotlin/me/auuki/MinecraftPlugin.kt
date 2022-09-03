@@ -9,8 +9,10 @@ class MinecraftPlugin : JavaPlugin() {
     private val reflectionScanners: ReflectionScanners = ReflectionScanners(this)
 
     override fun onEnable() {
-        System.setProperty("org.litote.mongo.test.mapping.service", "org.litote.kmongo.jackson.JacksonClassMappingTypeService")
-
+        System.setProperty(
+            "org.litote.mongo.test.mapping.service",
+            "org.litote.kmongo.jackson.JacksonClassMappingTypeService"
+        )
         val inventoryStorage = MongoStorage(CustomInventory::class.java, "test", "inventories")
         val inventoryStringId = StringId<CustomInventory>("testInventory")
         inventoryStorage.get(inventoryStringId) ?: run {

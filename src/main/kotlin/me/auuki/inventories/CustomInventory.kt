@@ -3,7 +3,6 @@ package me.auuki.inventories
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 import org.bukkit.event.inventory.InventoryType
-import org.bukkit.inventory.ItemStack
 
 
 @Serializable
