@@ -6,3 +6,5 @@ api-version: 1.19
 commands:
   fly:
     usage: /<command>
+  mobs:
+    usage: /<command>

@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4cc66159-6195-49d1-b7b0-ec15c0119277" name="Changes" comment="Added in GodMode?">
-      <change afterPath="$PROJECT_DIR$/libs/paper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/me/auuki/inventories/CustomInventoryTest.kt" afterDir="false" />
+    <list default="true" id="4cc66159-6195-49d1-b7b0-ec15c0119277" name="Changes" comment="Testing Out InventoryMechanics?">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/me/auuki/mobs/CustomBinding.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/me/auuki/mobs/CustomMobTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/me/auuki/permissibles/Permissions.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/me/auuki/MinecraftPlugin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/me/auuki/MinecraftPlugin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/me/auuki/commands/GodMode.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/me/auuki/commands/GodMode.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/me/auuki/commands/TestCommands.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/me/auuki/commands/TestCommands.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/me/auuki/inventories/CustomInventoryTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/me/auuki/inventories/CustomInventoryTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,11 +95,11 @@
       <list>
         <option value="Class" />
         <option value="Kotlin Object" />
-        <option value="Kotlin Annotation" />
         <option value="Kotlin Enum" />
-        <option value="Kotlin Data Class" />
         <option value="Kotlin Interface" />
+        <option value="Kotlin Data Class" />
         <option value="Kotlin Class" />
+        <option value="Kotlin Annotation" />
       </list>
     </option>
   </component>
@@ -214,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662200899401</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Testing Out InventoryMechanics?">
+      <created>1662203617874</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662203617874</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -231,6 +242,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Reformatted code?" />
     <MESSAGE value="Added in GodMode?" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added in GodMode?" />
+    <MESSAGE value="Testing Out InventoryMechanics?" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testing Out InventoryMechanics?" />
   </component>
 </project>

@@ -6,9 +6,11 @@ import org.bukkit.event.Listener
 import org.bukkit.event.entity.EntityDamageByEntityEvent
 import org.bukkit.event.entity.EntityRegainHealthEvent
 import org.bukkit.event.entity.FoodLevelChangeEvent
+import org.bukkit.event.player.PlayerToggleFlightEvent
 
 class GodMode : Listener {
     private val devMode: Boolean = true
+
 
     @EventHandler
     fun onDamage(e: EntityDamageByEntityEvent) {

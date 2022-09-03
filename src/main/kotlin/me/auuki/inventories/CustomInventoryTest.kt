@@ -2,31 +2,31 @@ package me.auuki.inventories
 
 import org.bukkit.Bukkit
 import org.bukkit.Material
-import org.bukkit.entity.Villager
 import org.bukkit.event.EventHandler
 import org.bukkit.event.Listener
+import org.bukkit.event.entity.EntityInteractEvent
 import org.bukkit.event.inventory.InventoryClickEvent
 import org.bukkit.event.inventory.InventoryOpenEvent
 import org.bukkit.event.inventory.InventoryType
-import org.bukkit.event.player.PlayerInteractEvent
+import org.bukkit.event.player.PlayerInteractAtEntityEvent
 import org.bukkit.inventory.ItemStack
-
-
 
 class CustomInventoryTest : Listener {
     private val customInventory = Bukkit.createInventory(null, InventoryType.CHEST, "CustomInventory")
 
-    @EventHandler
-    fun onClick(e: PlayerInteractEvent) {
-        e.player.closeInventory()
-        e.player.openInventory(customInventory)
-    }
-
+    /** TODO: This class is terribly unfinished at the moment. **/
     @EventHandler
     fun onInventoryClick(e: InventoryClickEvent) {
         if (e.clickedInventory == null) return
         if (e.inventory != customInventory) return
         e.isCancelled = true
+    }
+
+    @EventHandler
+    fun onEntityInteract(e: PlayerInteractAtEntityEvent) {
+       if (e.rightClicked.customName != "TestMerchant") return
+       e.player.closeInventory()
+       e.player.openInventory(customInventory)
     }
 
     @EventHandler
