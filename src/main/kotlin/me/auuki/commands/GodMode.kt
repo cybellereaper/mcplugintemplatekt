@@ -21,7 +21,6 @@ class GodMode : Listener {
     fun onHealthChange(e: EntityRegainHealthEvent) {
         if (!devMode) return
         if (e.entity !is Player) return
-
         (e.entity as Player).health = 20.0
         e.isCancelled = true
     }
