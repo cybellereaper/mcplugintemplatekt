@@ -1,4 +1,4 @@
-package me.auuki
+package me.auuki.commands
 
 @Retention(AnnotationRetention.RUNTIME)
 @Target(AnnotationTarget.FUNCTION)

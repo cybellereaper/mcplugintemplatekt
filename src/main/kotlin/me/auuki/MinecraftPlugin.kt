@@ -1,4 +1,17 @@
 package me.auuki
 
-class MinecraftPlugin {
+import org.bukkit.plugin.java.JavaPlugin
+
+class MinecraftPlugin : JavaPlugin() {
+    private lateinit var reflectionScanners: ReflectionScanners
+
+    override fun onEnable() {
+        reflectionScanners = ReflectionScanners(this)
+        reflectionScanners.registerAllListeners()
+        reflectionScanners.defineCommands()
+    }
+
+    override fun onDisable() {
+
+    }
 }

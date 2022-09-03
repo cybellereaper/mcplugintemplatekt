@@ -1,0 +1,7 @@
+main: me.auuki.MinecraftPlugin
+name: MinecraftPlugin
+author: Auuki
+version: 1.0.0-dev
+commands:
+  fly:
+    usage: /<command>
