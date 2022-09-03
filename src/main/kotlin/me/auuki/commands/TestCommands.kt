@@ -5,8 +5,8 @@ import org.bukkit.command.CommandSender
 import org.bukkit.entity.Player
 import org.bukkit.event.Listener
 
-class TestCommands: Listener {
-    @CommandMapping(cmd ="fly", permission = "command.flight")
+class TestCommands : Listener {
+    @CommandMapping(cmd = "fly", permission = "command.flight")
     fun flyCommand(sender: CommandSender, cmd: Command, label: String, args: Array<String>) {
         if (sender !is Player) return
         sender.allowFlight = !sender.isFlying

@@ -1,6 +1,6 @@
 package me.auuki.database
 
-abstract class MongoWrapper<T: Any> : StorageContainer<T>  {
+abstract class MongoWrapper<T : Any> : StorageContainer<T> {
     override suspend fun add(entity: T) {
         TODO("Not yet implemented")
     }

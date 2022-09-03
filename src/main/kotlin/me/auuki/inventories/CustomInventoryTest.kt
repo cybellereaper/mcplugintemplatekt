@@ -23,9 +23,9 @@ class CustomInventoryTest : Listener {
 
     @EventHandler
     fun onEntityInteract(e: PlayerInteractAtEntityEvent) {
-       if (e.rightClicked.customName != "TestMerchant") return
-       e.player.closeInventory()
-       e.player.openInventory(customInventory)
+        if (e.rightClicked.customName != "TestMerchant") return
+        e.player.closeInventory()
+        e.player.openInventory(customInventory)
     }
 
 

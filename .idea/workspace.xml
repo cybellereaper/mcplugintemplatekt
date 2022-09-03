@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4cc66159-6195-49d1-b7b0-ec15c0119277" name="Changes" comment="Added in database support?">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/me/auuki/utils/Cuboid.kt" afterDir="false" />
+    <list default="true" id="4cc66159-6195-49d1-b7b0-ec15c0119277" name="Changes" comment="added in Cuboid.kt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -133,7 +132,7 @@
       <recent name="me.auuki.listeners" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MinecraftPluginCool [shadowJar]">
+  <component name="RunManager" selected="Gradle.MinecraftPluginCool [clean]">
     <configuration name="MinecraftPluginCool [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -178,8 +177,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.MinecraftPluginCool [shadowJar]" />
         <item itemvalue="Gradle.MinecraftPluginCool [clean]" />
+        <item itemvalue="Gradle.MinecraftPluginCool [shadowJar]" />
       </list>
     </recent_temporary>
   </component>
@@ -234,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662242290367</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added in Cuboid.kt">
+      <created>1662242841051</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1662242841051</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -254,6 +260,7 @@
     <MESSAGE value="Testing Out InventoryMechanics?" />
     <MESSAGE value="Testing out more entity?" />
     <MESSAGE value="Added in database support?" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added in database support?" />
+    <MESSAGE value="added in Cuboid.kt" />
+    <option name="LAST_COMMIT_MESSAGE" value="added in Cuboid.kt" />
   </component>
 </project>
