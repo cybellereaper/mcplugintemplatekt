@@ -2,9 +2,6 @@ package me.auuki.permissibles
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
-import me.auuki.utils.serialization.UUIDSerializer
-import java.util.*
-import kotlin.collections.ArrayList
 
 @Serializable
 data class Permissions(

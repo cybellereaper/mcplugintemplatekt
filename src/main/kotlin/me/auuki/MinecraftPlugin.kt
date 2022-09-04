@@ -1,11 +1,7 @@
 package me.auuki
 
-import kotlinx.serialization.encodeToString
-import kotlinx.serialization.json.Json
 import me.auuki.database.MongoStorage
 import me.auuki.inventories.CustomInventory
-import org.bukkit.Material
-import org.bukkit.inventory.ItemStack
 import org.bukkit.plugin.java.JavaPlugin
 import org.litote.kmongo.id.StringId
 

@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4cc66159-6195-49d1-b7b0-ec15c0119277" name="Changes" comment="Updated Gradle!">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/me/auuki/items/DataContainer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/libs/paper.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/me/auuki/MinecraftPlugin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/me/auuki/MinecraftPlugin.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/me/auuki/inventories/CustomInventory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/me/auuki/inventories/CustomInventory.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/me/auuki/items/CustomItems.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/me/auuki/items/CustomItems.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/me/auuki/utils/serialization/ItemStackSerializer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/me/auuki/utils/serialization/ItemStackSerializer.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,19 +113,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Administrator/IdeaProjects/MinecraftPluginCool/server/paper.jar&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Administrator/IdeaProjects/MinecraftPluginCool/src/main/libs",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\IdeaProjects\MinecraftPluginCool\src\main\libs" />
       <recent name="C:\Users\Administrator\IdeaProjects\MinecraftPluginCool\src\main\resources" />
       <recent name="C:\Users\Administrator\IdeaProjects\MinecraftPluginCool\libs" />
     </key>
@@ -375,7 +376,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662260535356</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Updated Gradle!">
+      <created>1662262043580</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1662262043580</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -12,7 +12,8 @@ import org.bukkit.inventory.ItemStack
 class ItemStackSerializer : KSerializer<ItemStack> {
     override val descriptor: SerialDescriptor = PrimitiveSerialDescriptor("ItemStack", PrimitiveKind.STRING)
     override fun deserialize(decoder: Decoder): ItemStack {
-        println(decoder.decodeString())
+
+
         return ItemStack(Material.DIAMOND)
     }
 
