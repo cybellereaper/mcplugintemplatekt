@@ -16,6 +16,8 @@ repositories {
     maven("https://hub.spigotmc.org/nexus/content/repositories/snapshots/")
 }
 
+
+
 dependencies {
     implementation(kotlin("stdlib"))
     testImplementation(kotlin("test"))
@@ -28,6 +30,10 @@ dependencies {
 
 tasks.test {
     useJUnitPlatform()
+}
+
+tasks.withType<Jar> {
+    destinationDir = file("server/plugins")
 }
 
 tasks.withType<KotlinCompile> {

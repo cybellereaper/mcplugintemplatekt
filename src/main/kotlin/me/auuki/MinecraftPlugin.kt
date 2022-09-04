@@ -13,6 +13,7 @@ class MinecraftPlugin : JavaPlugin() {
             "org.litote.mongo.test.mapping.service",
             "org.litote.kmongo.jackson.JacksonClassMappingTypeService"
         )
+
         val inventoryStorage = MongoStorage(CustomInventory::class.java, "test", "inventories")
         val inventoryStringId = StringId<CustomInventory>("testInventory")
         inventoryStorage.get(inventoryStringId) ?: run {
