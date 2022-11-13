@@ -13,7 +13,6 @@ import org.bukkit.inventory.ItemStack
 class CustomInventoryTest : Listener {
     private val customInventory = Bukkit.createInventory(null, InventoryType.CHEST, "CustomInventory")
 
-    // TODO: This class is terribly unfinished at the moment.
     @EventHandler
     fun onInventoryClick(e: InventoryClickEvent) {
         if (e.clickedInventory == null) return
