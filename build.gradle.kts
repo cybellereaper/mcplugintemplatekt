@@ -31,7 +31,7 @@ tasks.test {
 }
 
 tasks.withType<Jar> {
-    destinationDir = file("server/plugins")
+    destinationDir = file("yourserver/plugin-dir")
 }
 
 tasks.withType<KotlinCompile> {

@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4cc66159-6195-49d1-b7b0-ec15c0119277" name="Changes" comment="Updated Gradle!">
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/me/auuki/ReflectionScanners.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/me/auuki/ReflectionScanners.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/me/auuki/commands/TestCommands.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/me/auuki/commands/TestCommands.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/me/auuki/inventories/CustomInventory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/me/auuki/inventories/CustomInventory.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/me/auuki/utils/Cuboid.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/me/auuki/utils/Cuboid.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/libs/paper.jar" beforeDir="false" />
-    </list>
+    <list default="true" id="4cc66159-6195-49d1-b7b0-ec15c0119277" name="Changes" comment="Optimizations added and updated version?" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -400,7 +390,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662262043580</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Optimizations added and updated version?">
+      <created>1683622341387</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1683622341387</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -427,6 +424,7 @@
     <MESSAGE value="im lazy to finish this..." />
     <MESSAGE value="Added in more functionality?" />
     <MESSAGE value="Updated Gradle!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated Gradle!" />
+    <MESSAGE value="Optimizations added and updated version?" />
+    <option name="LAST_COMMIT_MESSAGE" value="Optimizations added and updated version?" />
   </component>
 </project>
