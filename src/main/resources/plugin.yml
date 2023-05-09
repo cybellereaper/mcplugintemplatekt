@@ -1,4 +1,4 @@
-main: me.auuki.MinecraftPlugin
+main: framework.MinecraftPlugin
 name: MinecraftPlugin
 author: Auuki
 version: 1.0.0-dev
