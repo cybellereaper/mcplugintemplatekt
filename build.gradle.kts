@@ -7,7 +7,7 @@ plugins {
     kotlin("plugin.serialization") version "1.8.21"
 }
 
-group = "me.auuki"
+group = "github.astridalia"
 version = "1.0-SNAPSHOT"
 
 repositories {
