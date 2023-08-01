@@ -24,6 +24,7 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4")
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.5.0")
     implementation("org.litote.kmongo:kmongo:4.7.0")
+    implementation("io.insert-koin:koin-core:3.4.3")
 }
 
 tasks.test {

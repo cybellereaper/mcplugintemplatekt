@@ -10,12 +10,13 @@ import org.bukkit.command.CommandSender
 import org.bukkit.event.Listener
 import org.bukkit.plugin.PluginManager
 import org.bukkit.plugin.java.JavaPlugin
+import org.koin.core.component.KoinComponent
 import org.reflections.Reflections
 import org.reflections.scanners.Scanners.MethodsAnnotated
 import org.reflections.scanners.Scanners.SubTypes
 import java.lang.reflect.Method
 
-class ReflectionScanners(private val javaPlugin: JavaPlugin) {
+class ReflectionScanners(private val javaPlugin: JavaPlugin): KoinComponent {
     private val pluginManager: PluginManager = javaPlugin.server.pluginManager
     private val packageName: String = MinecraftPlugin::class.java.`package`.name
 
